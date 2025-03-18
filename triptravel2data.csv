@@ -1,0 +1,138 @@
+﻿Trip ID,Destination,Start date,End date,Duration (days),tour guide,tour guide age,tour guide  gender,tour guide nationality,Accommodation type,Accommodation cost,Transportation type,Transportation cost,Package Type,Start City,Itinerary
+1,"London, UK",05/09/2025,05/12/2025,3,John Smith,35,Male,American,Hotel,1200 USD,Flight,,Deluxe,German,1N near british musem . 1N near london eye . 1N near Tower of London
+2,"Phuket, Thailand",6/15/2023,6/20/2023,5,Jane Doe,28,Female,Canadian,Resort,800,Flight,500,Premium,"London, UK",
+3,"Bali, Indonesia",07/01/2023,07/08/2023,7,David Lee,45,Male,Korean,Villa,1000,Flight,700,Luxury,"Phuket, Thailand",1N Seminyak . 3N Uluwatu
+4,"New York, USA",8/15/2025,8/29/2025,14,Sarah Johnson,29,Female,British,Hotel,2000,Flight,,Luxury,"Bali, Indonesia",1N Time Square . 2N central park
+5,"Tokyo, Japan",09/10/2023,9/17/2023,7,Kim Nguyen,26,Female,Vietnamese,Airbnb,700,Train,200,Luxury,"New York, USA",
+6,"Paris, France",10/05/2025,10/10/2025,5,Michael Brown,42,Male,American,Hotel,1500,Flight,,Luxury,"Tokyo, Japan",1N Notre-Dame Cathedral . 1N eiffel tower 
+7,"Sydney, Australia",11/20/2025,11/30/2025,10,Emily Davis,33,Female,Australian,Hostel,500,Flight,,Luxury,"Paris, France",1D Opera House. 1D Harbour bridge. 1D Bondi Beach
+8,"Rio de Janeiro, Brazil",01/05/2024,01/12/2024,7,Lucas Santos,25,Male,Brazilian,Airbnb,900,Flight,600,Luxury,"Sydney, Australia",
+9,"Amsterdam, Netherlands",2/14/2024,2/21/2024,7,Laura Janssen,31,Female,Dutch,Hotel,1200,Train,200,Luxury,"Rio de Janeiro, Brazil",
+10,"Dubai, United Arab Emirates",03/10/2024,3/17/2024,7,Mohammed Ali,39,Male, ,Resort,2500,Flight,800,Luxury,"Amsterdam, Netherlands",1N palm jumairah . 2N Marina . 3N downtown
+11,"Cancun, Mexico",04/01/2024,04/08/2024,7,Ana Hernandez,27,Female,Mexican,Hotel,1000,Flight,500,Luxury,"Dubai, United Arab Emirates",
+12,"Barcelona, Spain",5/15/2024,5/22/2024,7,Carlos Garcia,36,Male,Spanish,Airbnb,800,Flight,100,Luxury,"Cancun, Mexico",
+13,"Honolulu, Hawaii",06/10/2025,6/18/2025,8,Lily Wong,29,Female,Chinese,Resort,3000,Flight,,Luxury,"Barcelona, Spain", Waikiki Beach . 2N Haleakalā National Park . 2N Nā Pali Coast
+14,"Berlin, Germany",07/01/2024,07/10/2024,9,Hans Mueller,48,Male,German,Hotel,1400,Flight,700,Luxury,"Honolulu, Hawaii",1N  Waikiki Beach . 2N Haleakalā National Park . 2N Nā Pali Coast
+15,"Marrakech, Morocco",8/20/2024,8/27/2024,7,Fatima Khouri,26,Female,Moroccan,Riad,600,Flight,400,Luxury,"Berlin, Germany",
+16,"Edinburgh, Scotland",09/05/2024,09/12/2024,7,James MacKenzie,32,Male,Scottish,Hotel,900,Train,150,Luxury,"Marrakech, Morocco",
+17,Paris,09/01/2025,09/10/2025,9,Sarah Johnson,30,Female,American,Hotel,$900 ,Plane,$400 ,Deluxe,"London, UK",1N Notre-Dame Cathedral . 2N eiffel tower . 4 hours Seine River Cruise
+18,Bali,8/15/2023,8/25/2023,10,Michael Chang,28,Male,Chinese,Resort,"$1,500 ",Plane,$700 ,Deluxe,"Phuket, Thailand",
+19,London,7/22/2023,7/28/2023,6,Olivia Rodriguez,35,Female,British,Hotel,"$1,200 ",Train,$150 ,Deluxe,"Bali, Indonesia",
+20,Tokyo,10/05/2023,10/15/2023,10,Kenji Nakamura,45,Male,Japanese,Hotel,"$1,200 ",Plane,$800 ,Deluxe,"New York, USA",
+21,New York,11/20/2023,11/25/2023,5,Emily Lee,27,Female,American,Airbnb,$600 ,Bus,$100 ,Deluxe,"Tokyo, Japan",
+22,Sydney,12/05/2023,12/12/2023,7,James Wilson,32,Male,Australian,Hotel,"$1,000 ",Plane,$600 ,Deluxe,"Paris, France",1D Opera House. 1D Harbour bridge. 1D Bondi Beach
+23,Rome,11/01/2023,11/08/2023,7,Sofia Russo,29,Female,Italian,Airbnb,$700 ,Train,$80 ,Deluxe,"Sydney, Australia",
+24,Bangkok,9/15/2023,9/23/2023,8,Raj Patel,40,Male,Indian,Hostel,$400 ,Plane,$500 ,Deluxe,"Rio de Janeiro, Brazil",
+25,Paris,12/22/2024,12/28/2024,6,Lily Nguyen,24,Female,Vietnamese,Hotel,"$1,400 ",Train,$100 ,Deluxe,"Amsterdam, Netherlands",1N Notre-Dame Cathedral . 2N eiffel tower . 4 hours Seine River Cruise
+26,Hawaii,08/01/2023,08/10/2023,9,David Kim,34,Male,Korean,Resort,"$2,000 ",Plane,$800 ,Deluxe,"Dubai, United Arab Emirates",
+27,Barcelona,10/20/2023,10/28/2023,8,Maria Garcia,31,Female,Spanish,Hotel,"$1,100 ",Train,$150 ,Deluxe,"Cancun, Mexico",
+28,Japan,05/10/2022,5/18/2022,8,Alice Smith,30,Female,American,Hotel,$800 ,Plane,$500 ,Premium,"Barcelona, Spain",
+29,Thailand,6/15/2022,6/22/2022,7,Bob Johnson,45,Male,Canadian,Hostel,$200 ,Train,$150 ,Premium,"Honolulu, Hawaii",
+30,France,07/02/2022,07/11/2022,9,Charlie Lee,25,Male,Korean,Airbnb,$600 ,Car rental,$300 ,Premium,"Berlin, Germany",
+31,Australia,8/20/2024,09/02/2024,13,Emma Davis,28,Female,British,Hotel,"$1,000 ",Car rental,$500 ,Premium,"Marrakech, Morocco",1D Opera House. 1D Harbour bridge. 1D Bondi Beach
+32,Brazil,09/05/2022,9/14/2022,9,Olivia Martin,33,Female,Australian,Hostel,$150 ,Bus,$50 ,Premium,"Dubai, United Arab Emirates",1N jumairah . 4N Pahalgam . 2N Srinagar
+33,Greece,10/12/2022,10/20/2022,8,Harry Wilson,20,Male,American,Airbnb,$400 ,Plane,$600 ,Premium,"Cancun, Mexico",1N Gulmarg . 2N Pahalgam . 2N Srinagar
+34,Egypt,11/08/2025,11/15/2025,7,Sophia Lee,37,Female,Canadian,Hotel,$700 ,Flight,,Premium,"Barcelona, Spain",1N Giza . 2N Alexandaria . 2N sharm -el sheikh beach
+35,Mexico,01/05/2023,1/15/2023,10,James Brown,42,Male,British,Airbnb,$500 ,Plane,$800 ,Premium,"Honolulu, Hawaii",1N Gulmarg . 2N Pahalgam . 2N Srinagar
+36,Italy,2/14/2023,2/20/2023,6,Mia Johnson,31,Female,American,Hostel,$180 ,Train,$120 ,Premium,"Berlin, Germany",
+37,Spain,3/23/2023,3/31/2023,8,William Davis,27,Male,Korean,Hotel,$900 ,Car rental,$400 ,Premium,"Marrakech, Morocco",
+38,italy,4/19/2025,4/26/2025,7,Amelia Brown,38,Female,Australian,Airbnb,$350 ,Bus,$75 ,Premium,"London, UK",1N rome . 2N venice . 3N Vatican City
+39,"Paris, France",06/12/2025,6/19/2025,7,Mia Johnson,25,Female,American,Hotel,1400,Plane,600,Premium,"Phuket, Thailand",1N Notre-Dame Cathedral . 2N eiffel tower . 4 hours Seine River Cruise
+40,"Sydney, Australia",01/02/2023,01/09/2023,7,Adam Lee,33,Male,Canadian,Airbnb,800,Train,150,Premium,"Bali, Indonesia",
+41,"Tokyo, Japan",12/10/2022,12/18/2022,8,Sarah Wong,28,Female,Chinese,Hostel,500,Plane,900,Premium,"New York, USA",
+42,"Cancun, Mexico",07/01/2023,07/08/2023,7,John Smith,45,Male,American,Resort,2200,Plane,800,Premium,"Tokyo, Japan",
+43,"Rio de Janeiro, Brazil",11/20/2022,11/27/2022,7,Maria Silva,30,Female,Brazilian,Hotel,1200,Plane,700,Premium,"Paris, France",
+44,"London, UK",03/05/2023,03/12/2023,7,Peter Brown,55,Male,British,Airbnb,900,Train,100,Premium,"Sydney, Australia",
+45,"Barcelona, Spain",8/18/2023,8/25/2023,7,Emma Garcia,27,Female,Spanish,Hostel,600,Plane,600,Premium,"Rio de Janeiro, Brazil",
+46,"New York City, USA",9/15/2022,9/22/2022,7,Michael Davis,41,Male,American,Hotel,1500,Plane,500,Premium,"Amsterdam, Netherlands",
+47,"Bangkok, Thailand",05/01/2023,05/07/2023,6,Nina Patel,29,Female,Indian,Airbnb,500,Bus,50,Premium,"Dubai, United Arab Emirates",
+48,"Vancouver, Canada",07/10/2022,7/17/2022,7,Kevin Kim,24,Male,Korean,Hostel,400,Train,150,Premium,"Cancun, Mexico",
+49,"Amsterdam, Netherlands",6/20/2023,6/28/2023,8,Laura van den Berg,31,Female,Dutch,Hotel,1100,Plane,700,Premium,"Barcelona, Spain",
+50,"Paris, France",8/15/2023,8/22/2023,7,Jennifer Nguyen,31,Female,Canadian,Hotel,"$1,200 ",Train,$300 ,Premium,"Honolulu, Hawaii",1N Notre-Dame Cathedral . 2N eiffel tower . 4 hours Seine River Cruise
+51,"Tokyo, Japan",10/10/2023,10/20/2023,10,David Kim,25,Male,American,Hostel,$500 ,Bus,$100 ,Premium,"Berlin, Germany",
+52,"Sydney, AUS",11/05/2023,11/12/2023,7,Rachel Lee,27,Female,South Korean,Airbnb,$900 ,Car rental,$200 ,Premium,"Marrakech, Morocco",
+53,"New York, USA",12/24/2023,12/31/2023,7,Jessica Wong,28,Female,Canadian,Hotel,"$1,400 ",Flight,$800 ,Premium,"Amsterdam, Netherlands",
+54,"Rio de Janeiro, Brazil",1/15/2024,1/24/2024,9,Felipe Almeida,30,Male,Brazilian,Airbnb,$800 ,Train,$150 ,Premium,"Paris, France",
+55,"Bangkok, Thailand",02/01/2024,02/09/2024,8,Nisa Patel,23,Female,Indian,Hostel,$400 ,Bus,$50 ,Premium,"Tokyo, Japan",
+56,"London, UK",3/15/2024,3/23/2024,8,Ben Smith,35,Male,British,Hotel,"$1,000 ",Train,$200 ,Premium,"Sydney, AUS",
+57,"Barcelona, Spain",04/05/2024,4/13/2024,8,Laura Gomez,29,Female,Spanish,Airbnb,$700 ,Car rental,$250 ,Premium,"New York, USA",
+58,"Seoul, South Korea",05/10/2024,5/18/2024,8,Park Min Woo,27,Male,South Korean,Hostel,$500 ,Subway,$20 ,Premium,"Rio de Janeiro, Brazil",
+59,"Los Angeles, USA",6/20/2024,6/27/2024,7,Michael Chen,26,Male,Chinese,Hotel,"$1,200 ",Car rental,$300 ,Premium,"Bangkok, Thailand",
+60,"Rome, Italy",7/15/2024,7/23/2024,8,Sofia Rossi,33,Female,Italian,Airbnb,$800 ,Train,$100 ,Premium,"London, UK",
+61,Paris,07/12/2022,7/18/2022,6,Rachel Sanders,35,Female,American,Hotel,$800,Train,800,Premium,"Barcelona, Spain",1N Notre-Dame Cathedral . 2N eiffel tower . 4 hours Seine River Cruise
+62,Tokyo,09/03/2022,09/10/2022,7,Kenji Nakamura,28,Male,Japanese,Hostel,400,Train,300,Premium,"Seoul, South Korea",
+63,Cape Town,01/07/2023,1/16/2023,9,Emily Watson,29,Female,British,Vacation rental,800,Car rental,200,Premium,"Los Angeles, USA",
+64,Sydney,6/23/2023,6/29/2023,6,David Lee,43,Male,Australian,Hotel,1500,Plane,1200,Premium,"Los Angeles, USA",
+65,Barcelona,8/18/2023,8/25/2023,7,Ana Rodriguez,31,Female,Spanish,Vacation rental,900,Plane,700,Premium,"Amsterdam, Netherlands",
+66,Bali,02/01/2024,02/08/2024,7,Tom Wilson,27,Male,American,Resort,2200,Plane,1000,Premium,"Paris, France",
+67,Paris,05/06/2024,05/12/2024,6,Olivia Green,39,Female,French,Hotel,1100,Airplane,200,Premium,"Tokyo, Japan",1N Notre-Dame Cathedral . 2N eiffel tower . 4 hours Seine River Cruise
+68,New York,7/20/2024,7/26/2024,6,James Chen,25,Male,American,Vacation rental,1000,Plane,800,Premium,"Sydney, AUS",
+69,Bangkok,09/08/2024,9/16/2024,8,Lila Patel,33,Female,Indian,Hostel,300,Plane,700,Premium,"New York, USA",
+70,Rome,2/14/2025,2/20/2025,6,Marco Rossi,41,Male,Italian,Hotel,1300,Train,100,Premium,"Rio de Janeiro, Brazil",
+71,Bali,5/21/2025,5/29/2025,8,Sarah Brown,37,Female,British,Resort,1800,Plane,,Premium,"Bangkok, Thailand",5N Seminyak . 3N Uluwatu
+73,"Bali, Indonesia",08/05/2022,08/12/2022,7,Sarah Lee,35,Female,South Korean,Resort,500 USD,Plane,800 USD,Premium,"Barcelona, Spain",
+74,"Tokyo, Japan",01/01/2023,01/09/2023,8,Alex Kim,29,Male,American,Hotel,1000 USD,Train,200 USD,Premium,"Seoul, South Korea",
+75,"Cancun, Mexico",4/15/2023,4/22/2023,7,Maria Hernandez,42,Female,Mexican,Resort,800 USD,Plane,500 USD,Premium,"Los Angeles, USA",
+76,"Paris, France",06/07/2025,6/14/2025,7,John Smith,46,Male,British,Hotel,1200 USD,Plane,,Premium,"Los Angeles, USA",1N Notre-Dame Cathedral . 2N eiffel tower . 4 hours Seine River Cruise
+77,"Cape Town, SA",09/01/2023,09/10/2023,9,Mark Johnson,31,Male,South African,Guesthouse,400 USD,Car,300 USD,Deluxe,"Amsterdam, Netherlands",
+78,"Bali, Indonesia",11/12/2023,11/19/2023,7,Amanda Chen,25,Female,Taiwanese,Resort,600 USD,Plane,700 USD,Deluxe,"Paris, France",
+79,"Sydney, Aus",02/05/2024,02/12/2024,7,David Lee,38,Male,Australian,Hotel,900 USD,Plane,600 USD,Deluxe,"Tokyo, Japan",
+80,"Bangkok, Thai",5/15/2024,5/22/2024,7,Nana Kwon,27,Female,Korean,Hotel,400 USD,Plane,400 USD,Deluxe,"Sydney, AUS",
+81,"New York, USA",8/20/2024,8/27/2024,7,Tom Hanks,60,Male,American,Hotel,1500 USD,Plane,1000 USD,Deluxe,"New York, USA",
+82,"Phuket, Thai",01/01/2025,01/08/2025,7,Emma Watson,32,Female,British,Resort,700 USD,Plane,800 USD,Deluxe,"Rio de Janeiro, Brazil",
+83,"Rome, Italy",4/15/2025,4/22/2025,7,James Kim,41,Male,American,Hotel,100 USD,Plane,,Deluxe,"Bangkok, Thailand",1N rome . 2N venice . 3N Vatican City
+84,Paris,6/15/2021,6/20/2021,6,John Smith,35,Male,American,Hotel,800 USD,Plane,500 USD,Deluxe,"London, UK",
+85,Tokyo,07/01/2021,07/10/2021,10,Sarah Lee,28,Female,Korean,Airbnb,500 USD,Train,300 USD,Deluxe,"Barcelona, Spain",
+86,Bali,08/10/2021,8/20/2021,11,Maria Garcia,42,Female,Spanish,Resort,1200 USD,Plane,700 USD,Deluxe,"Seoul, South Korea",
+87,Sydney,09/01/2021,09/10/2021,9,David Lee,45,Male,Australian,Hotel,900 USD,Plane,600 USD,Deluxe,"Los Angeles, USA",
+88,New York,10/15/2021,10/20/2021,6,Emily Davis,31,Female,American,Airbnb,700 USD,Car rental,200 USD,Premium,"Los Angeles, USA",
+89,London,11/20/2021,11/30/2021,11,James Wilson,29,Male,British,Hostel,300 USD,Plane,400 USD,Premium,"Los Angeles, USA",
+90,Dubai,01/01/2022,01/08/2022,8,Fatima Ahmed,24,Female,Emirati,Hotel,1000 USD,Plane,800 USD,Deluxe,"Los Angeles, USA",
+91,Bangkok,2/14/2022,2/20/2022,7,Liam Nguyen,26,Male,Vietnamese,Airbnb,400 USD,Train,100 USD,Luxury,"Amsterdam, Netherlands",
+92,Rome,03/10/2022,3/20/2022,11,Giulia Rossi,30,Female,Italian,Hostel,200 USD,Plane,350 USD,Premium,"Paris, France",
+93,Bali,4/15/2022,4/25/2022,11,Putra Wijaya,33,Male,Indonesian,Villa,1500 USD,Car rental,300 USD,Premium,"Tokyo, Japan",
+94,Seoul,05/01/2025,05/10/2025,10,Kim Min-ji,27,Female,Korean,Hotel,800 USD,Flight,,Luxury,"Sydney, AUS",1N Jeju Island . 2N DMZ  
+95,Paris,6/15/2022,6/20/2022,5,John Smith,35,Male,USA,Hotel,$500 ,Plane,$800 ,Luxury,"New York, USA",
+96,Tokyo,09/01/2022,09/10/2022,9,Emily Johnson,28,Female,Canada,Airbnb,$400 ,Train,$200 ,Luxury,"Rio de Janeiro, Brazil",
+97,Sydney,11/23/2022,12/02/2022,9,David Lee,45,Male,South Korea,Hostel,$200 ,Plane,"$1,200 ",Luxury,"Bangkok, Thailand",
+98,London,2/14/2023,2/19/2023,5,Sarah Brown,37,Female,UK,Hotel,$600 ,Plane,$700 ,Luxury,"London, UK",4N Buckingham Palace . 1N The Houses of Parliament and Big Ben
+99,New York,05/08/2023,5/14/2023,6,Michael Wong,50,Male,China,Airbnb,$800 ,Car rental,$300 ,Luxury,"Barcelona, Spain",4N Time Square . 2N central park
+100,Rome,8/20/2023,8/27/2023,7,Jessica Chen,31,Female,Taiwan,Hotel,$700 ,Plane,$900 ,Luxury,"Seoul, South Korea",
+101,Bangkok,11/12/2023,11/20/2023,8,Ken Tanaka,42,Male,Japan,Hostel,$300 ,Train,$100 ,Luxury,"Los Angeles, USA",
+102,Cape Town,01/06/2024,1/14/2024,8,Maria Garcia,27,Female,Spain,Airbnb,$500 ,Plane,"$1,500 ",Luxury,"London, UK",
+103,Rio de Janeiro,04/03/2024,04/10/2024,7,Rodrigo Oliveira,33,Male,Brazil,Hotel,$900 ,Car rental,$400 ,Luxury,"Barcelona, Spain",
+104,Bali,7/22/2024,7/28/2024,6,Olivia Kim,29,Female,South Korea,Villa,"$1,200 ",Plane,"$1,000 ",Luxury,"Seoul, South Korea",
+105,Amsterdam,10/10/2024,10/17/2024,7,Robert Mueller,41,Male,Germany,Hotel,$600 ,Train,$150 ,Standard,"Los Angeles, USA",
+106,Paris,5/15/2022,5/20/2022,5,John Smith,35,Male,USA,Hotel,1000,Plane,800,Standard,"Amsterdam, Netherlands",
+107,Tokyo,09/01/2022,09/10/2022,9,Sarah Lee,28,Female,South Korea,Airbnb,800,Train,500,Standard,"Amsterdam, Netherlands",
+108,New York,6/20/2022,6/25/2022,5,Michael Wong,42,Male,Hong Kong,Hotel,1200,Car rental,200,Standard,"Amsterdam, Netherlands",1N Time Square . 2N central park
+109,Bali,08/12/2022,8/20/2022,8,Lisa Chen,30,Female,Taiwan,Resort,1500,Plane,1200,Standard,"Amsterdam, Netherlands",
+110,Sydney,07/01/2022,07/10/2022,9,David Kim,26,Male,Canada,Hostel,300,Plane,900,Standard,"Amsterdam, Netherlands",
+111,London,06/10/2022,6/15/2022,5,Emily Wong,38,Female,United Kingdom,Hotel,900,Train,150,Standard,"Paris, France",3N near british musem . 1N near london eye . 1N near Tower of London
+112,Phuket,09/05/2022,09/12/2022,7,Mark Tan,45,Male,Singapore,Villa,2000,Plane,700,Standard,"Tokyo, Japan",
+113,Italy,05/01/2022,05/08/2022,7,Emma Lee,31,Female,Italy,Hotel,1100,Plane,250,Standard,"Sydney, AUS",2N venice . 3N Rome
+114,Santorini,7/15/2022,7/22/2022,7,George Chen,27,Male,Greece,Airbnb,1000,Plane,150,Standard,"New York, USA",
+115,Dubai,8/25/2024,8/30/2024,5,Sophia Kim,29,Female,Greece,Hotel,1500,Plane,300,Luxury,"Rio de Janeiro, Brazil",1N downtown . 2N palm jumairah . 2N marina
+116,"Rome, Italy",09/10/2022,9/15/2022,5,Alex Ng,33,Male,Cambodia,Hostel,200,Plane,500,Luxury,"Bangkok, Thailand",2N venice . 3N Rome
+117,"Tokyo, Japan",02/05/2022,2/14/2022,9,Alice Smith,32,Female,American,Hotel,1000,Plane,700,Luxury,"London, UK",1N Shibuya Crossing. 2N Senso-ji Temple  . 3N Meiji Shrine
+118,"Paris, France",3/15/2024,3/22/2024,7,Bob Johnson,47,Male,Canadian,Hotel,1200,Train,500,Luxury,"Barcelona, Spain",2N Notre-Dame Cathedral . 1N eiffel tower . 4 hours Seine River Cruise. 5 hours louvre musuem
+119,"Sydney, Aus",05/01/2022,05/12/2022,11,Cindy Chen,26,Female,Chinese,Airbnb,800,Plane,1000,Luxury,"Seoul, South Korea",1D Opera House. 1D Harbour bridge. 1D Bondi Beach
+120,"Rome, Italy",06/10/2022,6/17/2022,7,David Lee,38,Male,Korean,Hotel,900,Train,400,Luxury,"Los Angeles, USA",4N venice . 3N Rome
+121,"Bali, Indonesia",7/20/2022,7/30/2022,10,Emily Kim,29,Female,Korean,Hostel,500,Plane,800,Luxury,"Los Angeles, USA",1N Seminyak . 3N Uluwatu
+122,"Cancun, Mexico",08/08/2022,8/16/2022,8,Frank Li,41,Male,American,Hotel,1300,Plane,600,Luxury,"Los Angeles, USA",
+123,"Athens, Greece",9/20/2022,9/30/2022,10,Gina Lee,35,Female,Korean,Airbnb,700,Plane,900,Luxury,"Los Angeles, USA",
+124,"Tokyo, Japan",10/05/2024,10/13/2024,8,Henry Kim,24,Male,Korean,Hotel,1200,Plane,,Luxury,"Los Angeles, USA",1N Shibuya Crossing. 2N Senso-ji Temple  . 3N Meiji Shrine
+125,"Sydney, Aus",11/11/2024,11/21/2024,10,Isabella Chen,30,Female,Chinese,Airbnb,900,Plane,1000,Luxury,"Los Angeles, USA",1D Opera House. 1D Harbour bridge. 1D Bondi Beach
+126,"Paris, France",12/24/2022,01/01/2023,8,Jack Smith,28,Male,American,Hostel,400,Plane,700,Luxury,"Amsterdam, Netherlands",1N Notre-Dame Cathedral . 2N eiffel tower . 4 hours Seine River Cruise
+127,"Bali, Indonesia",02/10/2023,2/18/2023,8,Katie Johnson,33,Female,Canadian,Hotel,800,Plane,800,Luxury,"Amsterdam, Netherlands",1N Seminyak . 3N Uluwatu
+129,"Paris, France",05/01/2023,05/07/2023,6,John Doe,35,Male,American,Hotel,5000,Airplane,2500,Luxury,"Sydney, AUS",1N Notre-Dame Cathedral . 2N eiffel tower . 4 hours Seine River Cruise
+130,"Tokyo, Japan",5/15/2024,5/22/2024,7,Jane Smith,28,Female,British,Airbnb,7000,Airplane,1500,Luxury,"New York, USA",1N Shibuya Crossing. 2N Senso-ji Temple  . 3N Meiji Shrine
+131,"Cape Town, South Africa",06/01/2023,06/10/2023,9,Michael Johnson,45,Male,South African,Hostel,3000,Airplane,2000,Luxury,"Rio de Janeiro, Brazil",
+132,"Sydney, Australia",6/15/2024,6/21/2024,6,Sarah Lee,31,Female,Australian,Hotel,6000,Airplane,,Luxury,"Bangkok, Thailand",1D Opera House. 1D Harbour bridge. 1D Bondi Beach
+133,"Rome, Italy",07/01/2023,07/08/2023,7,David Kim,42,Male,Korean,Airbnb,4000,Train,1500,Luxury,"London, UK",4N venice . 1N Rome
+134,"New York City, USA",7/15/2023,7/22/2023,7,Emily Davis,27,Female,American,Hotel,8000,Airplane,2500,Luxury,"Barcelona, Spain",1N Time Square . 2N central park
+135,"Rio de Janeiro, Brazil",08/01/2023,08/10/2023,9,Jose Perez,37,Male,Brazilian,Hostel,2500,Airplane,2000,Luxury,"Seoul, South Korea",5N Rio De Janeiro
+136,Canada,8/15/2023,8/21/2023,6,Emma Wilson,29,Female,Canadian,Hotel,5000,Car,3000,Luxury,"Los Angeles, USA",2N Otwa .  3N Montereal
+137,"Bangkok, Thailand",09/01/2023,09/08/2023,7,Ryan Chen,34,Male,Chinese,Hostel,2000,Flight,,Luxury,"Seoul, South Korea",4N Bangkok
+138,"Barcelona, Spain",9/15/2025,9/22/2025,7,Sofia Rodriguez,25,Female,Spanish,Airbnb,6000,Airplane,,Luxury,"Seoul, South Korea",1N La Sagrada Família . 2N Montserrat
+139,"Auckland, New Zealand",10/01/2023,10/08/2023,7,William Brown,39,Male,New Zealander,Hotel,7000,Train,2500,Luxury,"Seoul, South Korea",5N Auckland
