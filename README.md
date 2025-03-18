@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 TravelAssistAI: Chatbot for Travel Assistance and Holiday Recommendations
 Part 1: Introduction
 Project Background
