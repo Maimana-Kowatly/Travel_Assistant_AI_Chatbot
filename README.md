@@ -1,125 +1,144 @@
-TravelAssistAI: Chatbot for Travel Assistance and Holiday Recommendations
-Part 1: Introduction
-Project Background
-In today’s fast-paced world, people seek quick getaways to relax, but the overwhelming number of travel options and lack of personalized advice make holiday planning difficult. TravelAssistAI was developed to solve this problem by integrating large language models with rule-based systems, providing accurate and tailored travel recommendations.
+# `TravelAssistAI: Chatbot for Travel Assistance and Holiday Recommendations`
 
-Problem Statement
-Using a dataset of holiday packages (including fields such as package name, destination, duration, sightseeing options, etc.), the chatbot analyzes user preferences and suggests the most suitable holiday packages.
+## `Project Background`
+In today’s fast-paced world, travelers struggle with information overload when planning vacations. `TravelAssistAI` solves this by integrating `large language models` with `rule-based systems` to provide personalized holiday recommendations.
 
-Dataset
-The dataset was sourced from Kaggle’s traveler trip dataset:
-🔗 Traveler Trip Dataset
+## `Problem Statement`
+Using a structured dataset of holiday packages (`package name, destination, duration, sightseeing options, etc.`), the chatbot analyzes user preferences and suggests the most suitable travel packages.
 
-The original dataset contains 30,000 rows, but to prevent OpenAI timeout errors, this project uses a reduced version with 4 rows.
-Approach
-1. Conversation & Information Gathering
-The chatbot interacts naturally with users to understand their requirements.
+## `Dataset`
+The dataset is sourced from Kaggle’s [Traveler Trip Dataset](https://www.kaggle.com/datasets/rkiattisak/traveler-trip-data). Due to processing constraints, a reduced version with `4 rows` is used.
 
-2. Information Extraction
-Once user preferences are gathered, rule-based functions process the data to match holiday packages.
+## `Approach`
 
-3. Personalized Recommendations
-The chatbot suggests tailored holiday packages and answers related queries.
+### `1. Conversation and Information Gathering`
+The chatbot interacts naturally with users to collect their travel preferences.
 
-System Design
-The system consists of five layers:
+### `2. Information Extraction`
+Once preferences are gathered, a rule-based system processes the data to match relevant holiday packages.
 
-Intent Clarity Layer – Captures user preferences through structured conversation.
-Intent Confirmation Layer – Validates that all necessary information is collected.
-Product Mapping Layer – Analyzes the dataset to match user requirements.
-Product Information Extraction Layer – Extracts the most relevant packages.
-Product Recommendation Layer – Provides tailored recommendations in a user-friendly manner.
-Core Functions
-1. Initializing the Conversation
-initialize_conversation() – Starts the conversation using prompt engineering and chain-of-thought reasoning, ensuring the chatbot asks relevant questions until the user’s preferences are captured.
+### `3. Personalized Recommendations`
+The chatbot suggests tailored holiday packages based on user input.
 
-Uses Few-Shot Prompting to demonstrate ideal interactions.
-2. Intent Confirmation Layer
-intent_confirmation_layer() – Ensures that the chatbot captures the following user details:
-✅ Destination
-✅ Package Type
-✅ Origin City
-✅ Duration
-✅ Budget
+## `System Design`
+The chatbot follows a `five-layered` architecture:
 
-3. Dictionary Validation & Moderation
-dictionary_present() – Ensures the chatbot stores user preferences as a Python dictionary.
-moderation_check() – Scans for inappropriate content in user or assistant messages and terminates the conversation if necessary.
-4. Product Mapping & Information Extraction
-product_map_layer() – Extracts holiday features from the dataset based on defined rules.
-extract_dictionary_from_string() – Converts user preferences into a structured dictionary.
-compare_holiday_with_user() – Matches user preferences against the dataset and returns the top recommendations in JSON format.
-5. Product Recommendation Layer
-Initiates the recommendation phase.
-Formats results for clear presentation.
-Engages users with follow-up questions about the recommendations.
-Dialogue Management System
-The dialogue_mgmt_system() function orchestrates all chatbot layers, ensuring smooth and seamless user interaction.
+1. **Intent Clarity Layer** – Captures user preferences through structured conversation.
+2. **Intent Confirmation Layer** – Ensures all necessary details are collected.
+3. **Product Mapping Layer** – Matches user preferences against available packages.
+4. **Product Information Extraction Layer** – Extracts relevant details from the dataset.
+5. **Product Recommendation Layer** – Presents tailored holiday recommendations.
 
-User Interface
-TravelAssistAI is built as a Flask web application, allowing users to interact with the chatbot smoothly.
+## `Core Functions`
 
-Chatbot Functionalities, Challenges & Limitations
-Functionalities
-✅ Handles irrelevant queries beyond travel assistance.
-✅ Moderates inappropriate content from users and assistant.
-✅ Offers limited origin city options but allows user-entered alternatives.
-✅ Responds appropriately when the provided budget is below the dataset’s minimum.
+### `1. Initializing the Conversation`
+- `initialize_conversation()`: Starts the conversation with structured prompts.
+- Uses `Few-Shot Prompting` to guide user interactions.
 
-Challenges & Limitations
-The chatbot may misinterpret vague queries.
-Users must follow the structured conversation format for best results.
-Data processing may take up to 2 minutes when fetching holiday options.
-Usage & Example
-Step 1: Start the Conversation
-💬 Chatbot: Hello! Welcome to our holiday planning service. I'm here to help you find the perfect holiday package based on your preferences. Please share your holiday requirements with me.
+### `2. Intent Confirmation Layer`
+- `intent_confirmation_layer()`: Ensures user preferences include:
+  - `Destination`
+  - `Package Type`
+  - `Origin City`
+  - `Duration`
+  - `Budget`
 
-Step 2: Enter Destination
-🧑‍💻 User: I want to travel to Paris.
+### `3. Dictionary Validation and Moderation`
+- `dictionary_present()`: Ensures user preferences are stored in a structured dictionary.
+- `moderation_check()`: Scans user inputs for inappropriate content.
 
-Step 3: Enter Duration
-💬 Chatbot: Great choice! For how many nights would you like to visit Paris?
-🧑‍💻 User: 3 nights.
+### `4. Product Mapping and Information Extraction`
+- `product_map_layer()`: Defines matching rules for holiday packages.
+- `extract_dictionary_from_string()`: Converts user inputs into a structured format.
+- `compare_holiday_with_user()`: Matches preferences against available packages.
 
-Step 4: Data Processing
-⏳ Important Note: The website will load for 2 minutes to fetch data. Please wait for the result.
+### `5. Product Recommendation Layer`
+- Provides personalized recommendations.
+- Formats results for clarity.
+- Engages users with follow-up questions.
 
-Step 5: Display Holiday Packages
-💬 Chatbot:
-🔹 Summary of holiday packages (sorted by price per person):
-1️⃣ Honolulu, Hawaii – Waikiki Beach, Haleakalā National Park, Nā Pali Coast – $375 per day
-2️⃣ Paris, France – Notre-Dame Cathedral, Eiffel Tower, Seine River Cruise – $171 per day
-3️⃣ New York, USA – Times Square, Central Park – $143 per day
-4️⃣ Bali – Seminyak, Uluwatu – $225 per day
-5️⃣ Rome, Italy – Rome, Venice, Vatican City – $16.67 per day
-6️⃣ Sydney, Australia – Opera House, Harbour Bridge, Bondi Beach – $50 per day
-7️⃣ Egypt – Giza, Alexandria, Sharm el-Sheikh Beach – $20 per day
-8️⃣ London, UK – British Museum, London Eye, Tower of London – $400 per day
-9️⃣ Tokyo, Japan – Shibuya Crossing, Senso-ji Temple, Meiji Shrine – $150 per day
-🔟 Bangkok, Thailand – Bangkok – $285.71 per day
+## `Dialogue Management System`
+The `dialogue_mgmt_system()` function orchestrates interaction across different layers for a seamless experience.
 
-💬 How can I assist you further with this information?
+---
 
-Step 6: Request More Information
-🧑‍💻 User: I want more information about number 7 Egypt.
+## `User Interface`
+The chatbot is deployed within a `Flask web application`, ensuring a smooth user experience.
 
-💬 Chatbot:
-🛫 Trip to Egypt (Trip ID: 34):
+---
 
-Destinations: Giza, Alexandria, Sharm el-Sheikh Beach
-Package Type: Premium
-Origin City: Barcelona, Spain
-Duration: 7 Days
-Accommodation Cost: $700
-Transportation: Flight
-Tour Guide: Sophia Lee (37, Canada)
-Total Cost per Person: Not provided in the dataset.
-Step 7: Ask for Accommodation Type
-🧑‍💻 User: What is the accommodation type for Egypt?
+## `Chatbot Functionalities, Challenges, and Limitations`
 
-💬 Chatbot: The accommodation type for Egypt is a hotel.
+### `Functionalities`
+- Responds to queries beyond travel assistance.
+- Filters inappropriate content.
+- Supports alternative origin cities if not in the dataset.
+- Manages cases where the budget is too low.
 
-Important Notes
-🚀 Follow the structured conversation format for the best experience.
-⏳ If the chatbot takes time to respond, please wait 2 minutes while data is fetched.
-❌ If the chatbot replies with "yes" or "no" unexpectedly, rephrase your query.
+### `Challenges and Limitations`
+- `Loading Time`: The chatbot requires `2 minutes` to process and return results.
+- `Limited Data`: Uses a small dataset due to API constraints.
+- `Response Variation`: Users should rephrase queries if they receive unexpected responses.
+
+---
+
+## `Usage Example`
+
+### `Step 1: Initial Greeting`
+The chatbot introduces itself and asks for the travel destination.
+
+
+### `Step 2: User Input – Destination`
+User specifies a travel destination.
+e.g. I want to travel to Paris.
+
+### `Step 3: Chatbot Asks for Duration`
+e.g. Great choice! For how many nights would you like to visit Paris?
+### `Step 4: User Input – Number of Nights`
+e.g. 3 nights
+
+
+**⚠ Important:** The system will **load for 2 minutes** to process recommendations.
+
+### `Step 5: Chatbot Lists Holiday Packages`
+e.g. Here are some holiday packages sorted by price per person:
+
+Paris, France: Eiffel Tower, Seine River Cruise – $171 per day.
+Rome, Italy: Vatican City, Venice – $16.67 per day.
+London, UK: British Museum, Tower of London – $400 per day. ...
+
+
+### `Step 6: User Requests More Information`
+I want more information about number 7 Egypt.
+
+### `Step 7: Chatbot Provides Details`
+answer:The holiday to Egypt includes visits to Giza, Alexandria, and Sharm-el-Sheikh beach. Package Type: Premium Starting from: Barcelona, Spain Duration: 7 days Accommodation: Hotel Transportation: Flight Tour Guide: Sophia Lee, 37, Canada
+
+
+### `Step 8: User Queries Specific Details`
+question:What is the accommodation type for Egypt?
+
+### `Step 9: Chatbot Responds`
+answer:The accommodation type for Egypt is a hotel.
+
+
+---
+
+## `Additional Notes`
+- If the chatbot responds with `"yes" or "no"`, rephrase the query.
+- A `demo` is included in the root 
+
+---
+
+## `Technology Stack`
+- **Programming Language**: Python
+- **Framework**: Flask
+- **AI Model**: GPT-3.5-Turbo
+- **Dataset Source**: Kaggle
+- **Frontend**: HTML, CSS, JavaScript
+
+---
+
+## `License`
+This project is released under the `MIT License`.
+
